@@ -21,7 +21,7 @@ INFORMAÇÕES COMPLEMENTARES
         <h1>Currículo</h1>
     </div>
     <fieldset>
-        <h2>Dados Pessoais</h2>
+        <legend><h2>Dados Pessoais</h2></legend>
         <input type="text" name="nomeCompleto" id="nome" placeholder="Nome Completo">
         <input type="number" name="idade" id="idade" placeholder="Idade">
         <input type="radio" name="sexo" value="masculino"> <label for="masculino">Masculino</label>
@@ -47,11 +47,12 @@ INFORMAÇÕES COMPLEMENTARES
 
     </fieldset>
     <fieldset>
-       <h2>Objetivo</h2>
+       <legend><h2>Objetivo</h2></legend>
        <textarea name="texto" cols="50" rows="11" placeholder="Digite um texto"></textarea>
     </fieldset>
     <fieldset>
-        <h2>Formação Acadêmica</h2>
+        <legend><h2>Formação Acadêmica</h2></legend>
+        <input type="text" name="curso1" id="curso1" placeholder="Curso">
         <select name="formacao">
             <option value="">Selecione um curso</option>
             <option value="EM">Ensino Médio</option>
@@ -68,9 +69,28 @@ INFORMAÇÕES COMPLEMENTARES
         </select>
         <label for="">Conclusão</label>
         <input type="date">
+
+        <legend><h3>Escolaridade</h3></legend>
+        <input type="text" name="curso2" id="curso2" placeholder="Curso">
+        <select name="formacao2">
+            <option value="">Selecione um curso</option>
+            <option value="EM">Ensino Médio</option>
+            <option value="ET">Ensino Técnico</option>
+            <option value="BL">Bacharel</option>
+            <option value="PG">Pós-Graduação</option>
+            <option value="DR">Doutorado</option>
+        </select>
+        <select name="situacao2">
+            <option value="">Situação</option>
+            <option value="CR">Cursando</option>
+            <option value="CP">Completo</option>
+            <option value="TR">Trancado</option>
+        </select>
+        <label for="">Conclusão</label>
+        <input type="date">
     </fieldset>
     <fieldset>
-        <h2>Habilidades e Competências</h2>
+        <legend><h2>Habilidades e Competências</h2></legend>
         <input type="text" name="habilidade1" id="habilidade1" placeholder="Habilidade">
         <br>
         <input type="text" name="habilidade2" id="habilidade2" placeholder="Habilidade">
@@ -83,7 +103,7 @@ INFORMAÇÕES COMPLEMENTARES
         <br>
     </fieldset>
     <fieldset>
-        <h2>Experiências Profissionais</h2>
+        <legend><h2>Experiências Profissionais</h2></legend>
         <div>
         <label for="Empresa1">Nome da empresa:</label>
         <input type="text" id="Empresa1" name="Empresa"> 
@@ -119,8 +139,8 @@ INFORMAÇÕES COMPLEMENTARES
         
     </fieldset>
     <fieldset>
-        <h2>Informações Complementares</h2>
-        <textarea name="texto" cols="40" rows="4" placeholder="Digite um texto"></textarea>
+        <legend><h2>Informações Complementares</h2></legend>
+        <textarea name="texto" cols="50" rows="4" placeholder="Digite um texto"></textarea>
         <br>
         <textarea name="texto" cols="50" rows="11" placeholder="Digite um texto"></textarea>
         <br>
@@ -134,6 +154,7 @@ INFORMAÇÕES COMPLEMENTARES
 
 
     <fieldset>
+        <legend><h3>Adicional</h3></legend>
         <label for="">Foto de perfil:</label>
         <br>
         <input type="file" name="arquivo">
