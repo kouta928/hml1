@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos do HTML</title>
+</head>
+<body>
+    <!--
+        classes não devem começar com numerais
+        posso ter mais de uma classe em cada elemento
+        uma mesma classe pode ser reutilizada (deve)
+    -->
+
+    <div class="bannerPaginaInicial"></div>  
+    <div class="banner-container"></div>    
+    <div class="banner_home"></div>
+    <div class="banner preto com Borda"></div>
+    <div class="diego"></div>
+    <section class="teste"></section>
+    <span class="teste2"></span>
+    <div class="kouta"></div>
+    
+<ul class="list-group">
+    <li class="list-item"></li>
+    <li class="list-item"></li>
+    <li class="list-item"></li>
+    <li class="list-item"></li>
+    <li class="list-item"></li>
+    <li class="list-item"></li>
+    <li class="list-item"></li>
+    <li class="list-item"></li>
+    <li class="list-item"></li>
+    <li class="list-item"></li>
+</ul>
+
+    <!--
+        atributos de ID (identificador único)
+        não posso começar um id com numerais
+        não posso ter espaço no nome do id
+    -->
+    <a href="#" id="link1">link</a>
+    <a href="#quemsomos" id="link2">link</a>
+    
+    
+    <!--
+        atributos rel (relacionar) rel="tag"
+    -->
+
+    <!-- ul.listgroup>li.list-item*4    -->
+    <ul class="listgroup">
+        <li class="list-item" rel="1">Diego</li>
+        <li class="list-item" rel="2">Jonas</li>
+        <li class="list-item" rel="3">Maria</li>
+        <li class="list-item" rel="4">Jeronimo</li>
+    </ul>
+
+    <ul>
+        <li rel="SC">Santa Catarina</li>
+        <li rel="RS">Rio Grande do Sul</li>
+        <li rel="PR">Paraná</li>
+    </ul>
+
+    <ul>
+        <li rel="frutas">Banana</li>
+        <li rel="frutas">Laranja</li>
+        <li rel="bebidas">Cerveja</li>
+        <li rel="bebidas">Refrigerante</li>
+        <li rel="graos">Arroz</li>
+        <li rel="graos">Feijão</li>
+    </ul>
+
+    <!--     
+        atributos livres
+    -->
+
+    <ul>
+        <li data-cpf="12345678910" data-tipo="PF">Diego</li>
+        <li cpf="12345678911">Claudio</li>
+        <li ng-id>Guilherme</li>
+    </ul>
+
+</body>
+</html>

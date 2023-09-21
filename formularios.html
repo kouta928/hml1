@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- 
+        CRUD
+        C.reate
+        R.ead
+        U.pdate
+        D.elete
+     -->
+ <!-- atributo action -> caminho para onde vai a requisição 
+      method -> modo de envio das informações pelo navegador
+                GET -> solicita dados (os dados são exibidos na URL do browser)
+                POST-> envia dados (de forma que o usuário n veja)
+                
+-->
+<div>
+    <!-- para o click no label selecionar o campo, valor de for e id tem que ser iguais -->
+ <form action="contato.php" method="post" autocomplete="on">
+    <!-- para o click no label selecionar o campo
+         o valor de for e id tem que ser iguais -->
+    <label for="nome">Nome completo:</label>
+    <input type="text" name="nomeCompleto" id="nome">
+    <br><br>
+
+    <!-- input para e mail -->
+    <input type="email" name="email" placeholder="E-mail">
+    <br>
+    
+    <!-- campo numérico -->
+    <input type="number" name="number" name="numero" placeholder="Número">
+    <br>  
+
+    <!-- campo de senha -->
+    <input type="password" name="senha" placeholder="Senha">
+    <br><br>
+
+    <!-- input file para enviar 1 arquivo -->
+    <input type="file" name="arquivo">
+    <br><br>
+    
+    <!-- input file para enviar vários arquivos -->
+    <input type="file" name="arquivos" multiple>
+    <br>
+    
+    <!--select, lista de dados agrupados  -->
+    <select name="estados">
+        <option value="">Selecione um estado</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="PR">Paraná</option>
+        <option value="RS">Rio Grande do Sul</option>
+    </select>
+    <br>
+
+    <!-- campo oculto hidden -->
+    <input type="hidden" name="id" value="1234">
+    <br>
+
+    <!-- input para selecionar cor -->
+    <input type="color" name="color">
+    <br>
+    
+    <!-- textarea, campo para texto longo, permite quebra de linha -->
+    <textarea name="texto" cols="50" rows="11" placeholder="Digite um texto"></textarea>
+    <br>
+
+    <!-- data list - lista de dados -->
+    <input type="text" name="listaDados" list="lista">
+    <datalist id="lista">
+         <option value="item1">Item 1</option>
+         <option value="item2">Item 2</option>
+         <option value="item3">Item 3</option>
+    </datalist>
+    <br>
+
+    <!-- checkbox lista de dados onde posso marcar vários itens -->
+    <input type="checkbox" name="cores[]" id="Vermelho"><label for="vermelho">Vermelho</label>
+    <input type="checkbox" name="cores[]" id="Amarelo"><label for="amarelo">Amarelo</label>
+    <input type="checkbox" name="cores[]" id="Verde"><label for="verde">Verde</label>
+    <br>
+    
+    <!-- radio box permite a marcação de apenas um item da lista, desde que o name deles sejam iguais -->
+    <input type="radio" name="liquido" value="agua"> <label for="agua">Água</label>
+    <input type="radio" name="liquido" value="agua"> <label for="cerveja">Cerveja</label>
+    <input type="radio" name="liquido" value="cafe"> <label for="cafe">Café</label>
+    <br>
+    
+    <!-- value = valor -> preenche um valor padrão
+         required -> marca o campo como obrigatório
+         readonly -> apenas leitura, n permite alteração (o campo é enviado)
+         disabled -> desabilitar o campo e seu valor não é enviado no formulário ao backend
+    -->
+    <label for="">Campo com valor fixo</label>
+    <input type="text" name="teste1" value="Valor fixo" disabled>
+    <br>
+
+    <label for="">Valor minimo e máximo</label>
+    <input type="number" min="10" max="25">
+
+    <fieldset>
+        
+        <label for="rg">RG</label>
+        <input type="text" id="rg" name="rg">
+
+        <label for="">Data</label>
+        <input type="date">
+        <input type="range">
+
+
+    </fieldset>
+
+    <!-- campo submit -->
+    <input type="submit" value="ENVIAR">
+    
+    <button type="submit">Envio com button</button>
+</form>
+</div>
+
+
+
+</body>
+</html>
