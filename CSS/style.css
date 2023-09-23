@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+/*
+SELETORES
+SELETOR DE TAG -> DIV, SPAN, P
+SELETOR DE CLASSE -> .nomeClasse
+SELETOR DE ID -> #nomeId
+
+UNIDADES DE MEDIDA DO CSS
+PIXEL -> PX
+PORCENTAGEM -> %
+PROPORCIONAL DE CONTAINER -> EM
+PROPORCIONAL DE TELA -> REM
+REFERENCIAL DE VIEWPORT -> VW OU VH
+VW VIEWPORT WIDTH
+VH VIEWPORT HEIGHT
+*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* div.bloco{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+h1{
+    color: yellow;
+}
+ */
+/* .bloco2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+ */
+/* div, span{
+    border: 1px solid #000;
+    display:inline; or display:block;
+}
+ */
+
+.bloco p{
+    width: 100px;
+/*     max-width: 30px; */
+    height: 100px;
+    background-color: red;
+    margin: 10px  10px  10px   10px;
+    /*       Top  Right Bottom Left */
+}
+
+body{
+    background-color: white;
+}
+
+div h1{
+    /* cor do texto */
+    color: yellow;  
+    /* cor do fundo */
+    background-color: green;
+    padding:2rem;
+    font-family: 'Fuggles', cursive;
+    font-weight: 100;
+}
+
+h2{
+    /* left, right, center, justify */
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: hsl(276, 79%, 34%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    
+    /*
+    tipos de cores
+    hexadecimal -> #000000
+    00R
+    00G
+    00B
+    
+    nome das cores em ingles
+    black, white, green, purple, red, brown, blue...
+    
+    RGB por valores
+    0 até 255
+    (r,g,b) (0,255,150)
+    
+    RGBA(r,g,b,a) 0 até 1, A é a transparência
+    */
+}
