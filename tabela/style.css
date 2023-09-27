@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.titulo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.cambio{
+    width: 600px;
+    background-color: black;
+    border-spacing: 1px;
+    /* filter: grayscale(); */
+}
+
+.cambio td, .cambio th{
+    border:1px solid transparent;
+    background-color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+/* .cambio td:first-of-type{
+    text-align: left;
+} */
+
+.cambio td.left{
+    text-align: left;
+}
+
+.cambio th{
+    background-color: #ccc;
+}
+
+/* regra do cornão (zebrada ou listrada) */
+
+.cambio tr:nth-child(2n+1) td {
+   background-color: bisque;
+}
