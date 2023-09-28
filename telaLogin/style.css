@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.bloco-login{
+    display: inline-block;
+    background-color: #ccc;
+    min-width: 500px;
+    height: 950px;
+}
+
+.imagemfundo{
+    display: inline-block;
+    background-image: url(bgimg.png);
+}
+
+.form{
+  display: block;
+  padding: 40px 40px 10px;
+  margin-left: 60px;
+}
+
+.esquecisenha{
+    display: flex;
+    flex-direction: row-reverse;
+    vertical-align: top;
+}
+
+input[type=text]{
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.linha{
+    display: block;
+    border-bottom: 1px solid black;
+    width: 280px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.btn{
+    margin-left: 100px;
+    display: block;
+    background-color: rgb(29, 117, 249);
+    padding: 8px 145px;
+    border-radius: 6px;
+    text-decoration: none;
+    align-content: center;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.btn2{
+    margin-left: 100px;
+    display: block;
+    background-color: #ccc;
+    padding: 8px 113px;
+    border-radius: 6px;
+    text-decoration: none;
+    align-content: center;
+    color: grey;
+    margin-top: 30px;
+    border-color: grey;
+}
+
