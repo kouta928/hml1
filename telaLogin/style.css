@@ -24,7 +24,7 @@ h1{
 } */
 
 body{
-    background-image: url(bgimg.png);
+    background-image: url(bgimg.svg);
     background-position: 70vh;
     background-repeat: no-repeat;
 }
