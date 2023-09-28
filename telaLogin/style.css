@@ -17,9 +17,16 @@ h1{
     height: 950px;
 }
 
-.imagemfundo{
+/* .imagemfundo{
     display: inline-block;
+    position: absolute;
+    background-image: url("bgimg.png");
+} */
+
+body{
     background-image: url(bgimg.png);
+    background-position: 70vh;
+    background-repeat: no-repeat;
 }
 
 .form{
@@ -29,9 +36,8 @@ h1{
 }
 
 .esquecisenha{
-    display: flex;
-    flex-direction: row-reverse;
-    vertical-align: top;
+    display: block;
+    text-align: right;
 }
 
 input[type=text]{
@@ -41,8 +47,8 @@ input[type=text]{
 
 .linha{
     display: block;
-    border-bottom: 1px solid black;
-    width: 280px;
+    border-bottom: 0.2px solid black;
+    width: 58%;
     margin-left: 120px;
     margin-top: 20px;
 }
@@ -56,7 +62,6 @@ input[type=text]{
     text-decoration: none;
     align-content: center;
     color: white;
-    border: none;
     margin-top: 30px;
 }
 

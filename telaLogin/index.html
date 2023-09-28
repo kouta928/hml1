@@ -9,31 +9,33 @@
 </head>
 <body>
     <main>
+        
         <div class="bloco-login">
+            <form action="contato.php" method="post" autocomplete="on">
             <h1>Faça o login</h1>
         <div class="form">
             <label for="email"><h3>E-mail</h3></label>
             <input type="text" id="email" name="email" placeholder="joaosilva@hotmail.com">
-        </div>
-
-        <div class="form">
-            <label for="senha"><h3>Senha</h3></label>
-            <a href="#" class="esquecisenha">Esqueceu sua senha?</a>
-            <input type="text" id="senha" name="senha" placeholder="Digite sua senha">
             
         </div>
         
-            <button class="btn">Entrar</button>
+        <div class="form">
+            <label for="senha"><h3>Senha</h3></label>
+            <input type="text" id="senha" name="senha" placeholder="Digite sua senha">
+            <a href="#" class="esquecisenha">Esqueceu sua senha?</a>
 
+           
+            
+        </div>
+        
+
+            <button class="btn" type="submit">Entrar</button>
             <div class="linha">
                 <hr>
             </div>
 
             <button class="btn2">Não tenho conta</button>
-     </div>
-     <div class="imagemfundo">
-        <img src="bgimg.png" alt="">
-
+        </form>
      </div>
    </main>
 </body>
