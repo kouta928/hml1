@@ -47,6 +47,7 @@
 
 main{
     max-width: 1280px;
+    min-height: 70vh;
     margin:0 auto;
     padding: 50px 0;
 }
@@ -57,5 +58,93 @@ main{
     width: 22%;
     display: inline-block;
     margin: 0 1%;
+    vertical-align: top;
 }
 
+#destaques article header h3{
+    display: inline-block;
+    background-color: red;
+    padding: 4px 8px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+#destaques article div{
+    min-height: 50px;
+    background-color: white;
+    box-shadow: 0 3px 1px 1px black;
+    width: 225px;
+    text-align: center;
+}
+
+#destaques article div.title{
+    min-height: 100px;
+}
+
+#destaques article div.action{
+  min-height: 10px 0;
+}
+
+#destaque article img{
+    width: 100%;
+}
+
+#destaques article h4{
+    padding: 4px 8px;
+    text-align: left;
+}
+
+/* Componentes Padrões */
+.btn{
+    display: inline-block;
+    background-color: rgb(224, 54, 54);
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    align-content: center;
+    color: white;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+}
+
+footer .esquerda,
+footer .centro,
+footer .direita{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+footer .esquerda h4,
+footer .centro h4,
+footer .direita h4{
+    font-size: 18px;
+}
+
+footer .direita{
+    padding-top: 40px;
+}
+
+/* footer .direita ul{
+    padding-left: 120px;
+} */
+
+footer .direita ul li{
+    list-style: none;
+    text-align: center;
+}
+
+footer .assinatura{
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
