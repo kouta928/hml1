@@ -17,12 +17,6 @@ h1{
     height: 950px;
 }
 
-/* .imagemfundo{
-    display: inline-block;
-    position: absolute;
-    background-image: url("bgimg.png");
-} */
-
 body{
     background-image: url(bgimg.svg);
     background-position: 70vh;
