@@ -40,7 +40,11 @@ body{
     text-align: right;
 }
 
-input[type=text]{
+input[type=email]{
+    width: 300px;
+    padding: 10px 10px;
+}
+input[type=password]{
     width: 300px;
     padding: 10px 10px;
 }
