@@ -52,6 +52,11 @@ header{
     padding-right: 20px;
 }
 
+.header ul li:hover{
+    background-color: rgb(209, 93, 91);
+    transition: ease-in-out .3s;
+}
+
 main{
     margin-left: 15%;
     margin-right: 15%;
@@ -225,10 +230,14 @@ main{
     color: black;
 }
 
+.ler a:hover{
+    background-color: #ccc;
+    transition: ease-in-out .3s;
+}
+
 footer{
     width: 100%;
     height: 180px;
-    margin-bottom: 0;
     background-color: rgb(229, 57, 53);
 }
 
@@ -256,9 +265,7 @@ footer .direita ul li{
 }
 
 .assinatura{
-    padding: 25px 0;
     text-align: center;
-    color: black;
 }
 
 footer h4, small{
