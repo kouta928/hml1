@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav{
+    width: 100vw;
+    height: 80px;
+    background-color: #ccc;
+    display: flex;
+    padding: 0 30px;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-right: 5vw;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: red;
+    padding: 31px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.4s ease-out;
+}
+
+nav ul li a:hover{
+    background-color: rgb(69, 69, 69);
+    transition: 0.4 ease-in;
+}
+
+main{
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+}
+
+main .container{
+    display: flex;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+
+main .container .coluna{
+    height: 25%;
+    width: 100%;
+    background-color: red;
+    margin: 2%;
+}
+
+main .container .coluna h3{
+    text-align: center;
+    padding: 3em;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    height: 190px;
+    background-color: #ccc;
+    justify-content: center;
+}
+
+footer .container{
+    display: flex;
+    width: 90vw;
+    max-width: 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .container div ul li{
+    list-style-type: none;
+    text-align: left;
+}
+
+footer .container div ul li a {
+    text-decoration: none;
+}
